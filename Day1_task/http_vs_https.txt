@@ -1,0 +1,18 @@
+Difference between HTTP 1.1 vs HTTP 2
+    Hyper Text Transfer Protocol (HHTP) is an application protocol that has been the de-facto standard of communication on the World Wide Web since its invention in 1989.
+    HTTP 1.1 released in 1997 after that there havae been few revisions to the protocol
+        HTTP 1.1 have a poor responce time. With website becoming more resource intensive, the protocol was losing its efficency
+    HTTP 2 is a reimagined version of HTTP released in 2015
+        It is the second version of HTTP with most of tghe shortcomings of its predecessor addressed in its
+        It has come with advancements in efficency, speed and secutity.
+HTTP 1.1
+    * It works on the textual format.
+    * There is head-of-line blocking, that blocks all the requests behind it until it doesn't get its all resources.
+    * It uses request resource Inlining for use getting multiple pages.
+    * It compress data by itself.
+HTTP 2
+    * It works on the binary protocol.
+    * It allows multiplexing so one TCP connection is required for multiple requests.
+    * It uses PUSH frame by server that collects all multiple pages.
+    * It uses HPACK for data compression. 
+    *

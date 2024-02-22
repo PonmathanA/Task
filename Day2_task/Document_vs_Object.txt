@@ -1,0 +1,32 @@
+Understanding the Difference Between Document and Window Objects in JavaScript
+=>When working with JavaScript in web development two fundamental objects often come into play that is the document object and the window object.
+=>Both are essential components of the Document Object Model (DOM) and play crucial roles in manipulating and interacting with web pages.
+The Window Object:
+    The window object is the top level object in the browser's JavaScript object Hierarchy. It represents the browser window or tab that contains the web page.
+    here are some essential characteristics of the window object:
+            * Global Scope
+            * Properties
+            * Methods.
+            * Frames and IFrames.
+The Document Object:
+    The document object is a property of the window object and represents the current HTML document loaded in the browser. It allows you to interact with and manipulated the contents of the web page.
+    Here are some key points about the document object:
+            * DOM manipulation
+            * Accessing Elements
+            * Event Handling
+            * Forms and Input
+Difference b/w Window and Document Object
+ 1.Scope:
+    *The windows object is the top-level object, representing the entire browser window or tab
+    *The document object represents the current HTML document within that window or tab.
+ 2.Purpose:
+    *The window object deals with the browser's environment and global aspects.
+    *The document object focuses on the content of the web page and DOM manipulation.
+ 3.Hierarchy:
+    *The document object is a property of the window object you can access it as window document or simply as document.
+ 4.Functionality:
+    *The window object habdles browser related Functionality like opening new windows, managing timers and controlling navigation.
+    *The document object is concerned with handling and manipulating the content and structure of the HTML document.
+ 5.Event Handling:
+    *While you can attach event listeners to both window and document, the document object is commonly used for handling events related to user interaction with the web page.
+    
